@@ -29,7 +29,7 @@
  
             <div class="wrap">
 
-             <button class="GFG" type="submit"
+             <button type="submit" class="GFG" 
                  onclick="window.location.href = 'https://ide.geeksforgeeks.org';"> 
                     Submit
                 </button>
@@ -44,6 +44,26 @@
      
         </p>
     </div>
+ <input id="one"><input id="two"><button disabled>Submit</button>
+ 
+  <script>
+    const input1 = document.querySelector("#one");  
+    const input2 = document.querySelector("#two");    
+    const btn = document.querySelector("button");
+    
+    // Use the same validation handler for both inputs
+    input1.addEventListener("input", validate);
+    input2.addEventListener("input", validate);    
+    
+    function validate(){
+      // Check that neither input is empty
+      if(input1.value === "" || input2.value === ""){
+        btn.setAttribute("disabled","disabled");
+      } else {
+        btn.removeAttribute("disabled");  
+      }
+    }    
+  </script>
 </body>
  
 </html>
