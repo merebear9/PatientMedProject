@@ -30,7 +30,7 @@
             <div class="wrap">
 
              <button type="submit" class="GFG" 
-                 onclick="window.location.href = 'https://ide.geeksforgeeks.org';"> 
+                 onclick="window.location.href = 'https://ide.geeksforgeeks.org';" disabled> 
                     Submit
                 </button>
               </form>
@@ -44,11 +44,10 @@
      
         </p>
     </div>
- <input id="one"><input id="two"><button disabled>Submit</button>
  
   <script>
-    const input1 = document.querySelector("#one");  
-    const input2 = document.querySelector("#two");    
+    const input1 = document.querySelector("#first");  
+    const input2 = document.querySelector("#password");    
     const btn = document.querySelector("button");
     
     // Use the same validation handler for both inputs
