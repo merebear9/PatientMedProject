@@ -42,24 +42,7 @@
         </p>
     </div>
  
-  <script>
-    const input1 = document.querySelector("#first");  
-    const input2 = document.querySelector("#password");    
-    const btn = document.querySelector("button");
-    
-    // Use the same validation handler for both inputs
-    input1.addEventListener("input", validate);
-    input2.addEventListener("input", validate);    
-    
-    function validate(){
-      // Check that neither input is empty
-      if(input1.value === "" || input2.value === ""){
-        btn.setAttribute("disabled","disabled");
-      } else {
-        btn.removeAttribute("disabled");  
-      }
-    }    
-  </script>
+ 
 
  <script> 
   // Get a reference to the buttons 
