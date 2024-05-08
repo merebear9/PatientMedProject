@@ -22,6 +22,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                     <input type="date" id="date" name="admission_time" required>
                     </label>
                     </p>
+		 </div>
+		       <div class="form-group">
 
 
                     <h3><br/>Patients Name</h3>    
@@ -35,6 +37,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                             <input type="text" name="Last_name" placeholder="Enter last name" required>
                             </label>
                     </p>
+			       </div>
+		       <div class="form-group">
 
 
                     <h3><br/>Patients Info</h3>   
@@ -43,6 +47,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                             <input type="date" id="date"name="dob" required>
                             </label>
                         </p>
+			       </div>
+		       <div class="form-group">
 
                       
                     <p>
@@ -53,6 +59,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                         <p><label class="choice"> <input type="radio" name="gender" required value="others">Others</label></p>
                         </fieldset>
 			 </p>
+			       </div>
+		       <div class="form-group">
 
 			 
                          <p>
@@ -64,6 +72,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                         <p><label class="choice"> <input type="radio" name="marital status" required value="Widowed">Widowed</label></p>
 			</fieldset>
 			  </p>
+			       </div>
+		       <div class="form-group">
 
 			 
 			  <h3><br/>Phone Number</h3> 
@@ -72,6 +82,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                         <input type="tel" name="phone_number">
                         </label>
                         </p>
+			       </div>
+		       <div class="form-group">
 
 			 
 			 <h3><br/>Email</h3> 
@@ -80,6 +92,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                         <input type="email" name="email_address">
                         </label>
                         </p>
+			       </div>
+		       <div class="form-group">
         
 
                         <h3><br/>Present Address</h3>  
@@ -111,6 +125,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                         <input type="tel" name="postal_number">
                         </label>
                         </p>
+			       </div>
+		       <div class="form-group">
 
 			 
                 <h3><br/>Emergency Contact</h3>  
@@ -131,6 +147,8 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                                 <input type="text" name="area">
                                 </label>
                         </p>
+			       </div>
+		       <div class="form-group">
 
          
                    <br> <p>
@@ -138,6 +156,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                     <textarea name="comments" maxlength="500"></textarea>
                     </label>
                     </p> </br>
+		       </div>
                     
                     
                   
@@ -145,7 +164,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                     
                     </form>
               </div>
-			
+	  </div>
 		</div>
 		
 
