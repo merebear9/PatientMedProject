@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>Patient Information</h2>
+
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <?php foreach($data as $row): ?>
+  <tr>
+    <td><?= htmlspecialchars($row['first_name']) ?></td>
+    <td><?= htmlspecialchars($row['last_name']) ?></td>
+    <td><?= htmlspecialchars($row['Address']) ?></td>
+    <td><?= htmlspecialchars($row['city']) ?></td>
+    <td><?= htmlspecialchars($row['state']) ?></td>
+    <td><?= htmlspecialchars($row['zip']) ?></td>
+    <td><?= htmlspecialchars($row['phone_number']) ?></td>
+    <td><?= htmlspecialchars($row['customers_dob']) ?></td>
+    <td><?= htmlspecialchars($row['Email']) ?></td>
+    <td><?= htmlspecialchars($row['emergency_contact']) ?></td>
+    <td><?= htmlspecialchars($row['emergency_contact_phone_number']) ?></td>
+    <td><?= htmlspecialchars($row['emergency_contact_relationship']) ?></td>
+    <td><?= htmlspecialchars($row['Gender']) ?></td>
+    <td><?= htmlspecialchars($row['Married']) ?></td>
+  </tr>
+  <?php endforeach ?>
+</table>
+</body>
+</html>
